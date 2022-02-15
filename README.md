@@ -8,21 +8,23 @@ If you want to construct all your infrastructure, e.g. frontend, backend, lambda
     - `cicd`: pipeline files, e.g. Jenkinsfile.
 
 One example: 
+
+.
 +-- applications
-│   +-- aws_api_lambda
-│   +-- aws_backend
-│   +-- aws_frontend
-│   +-- backend-lock
-│   +-- gcp_backend
-│   +-- gcp_frontend
-│   +-- lambda_backend
+|   +-- aws_api_lambda
+|   +-- aws_backend
+|   +-- aws_frontend
+|   +-- backend-lock
+|   +-- gcp_backend
+|   +-- gcp_frontend
+|   +-- lambda_backend
 +-- cicd
-│   +-- Jenkinsfile.aws_fe
-│   +-- Jenkinsfile.lambda
+|   +-- Jenkinsfile.aws_fe
+|   +-- Jenkinsfile.lambda
 +-- modules
-│   +-- aws-dynamodb-lock
-│   +-- aws-ecs-alb-asg
-│   +-- aws-s3-cloudfront
-│   +-- gcp-gcs
-│   +-- gcp-gke-vpc
-│   +-- lambda-api-gateway
+|   +-- aws-dynamodb-lock
+|   +-- aws-ecs-alb-asg
+|   +-- aws-s3-cloudfront
+|   +-- gcp-gcs
+|   +-- gcp-gke-vpc
+|   +-- lambda-api-gateway
